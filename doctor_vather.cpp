@@ -1,3 +1,5 @@
+//Problem: The Doctor Meets Vader (Medium). https://codeforces.com/problemset/problem/1184/B2
+
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -84,7 +86,7 @@ int main(){
     vector<ship> ships;
     vector<base> bases;
 
-    ll s=0, t=S+B+2;
+    ll s=0, t=S+B+1;
     adj.assign(S+B+2, vector<ll>());
     capacity.assign(S+B+2, vector<ll>(S+B+2, 0));
 
